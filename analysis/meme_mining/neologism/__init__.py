@@ -1,0 +1,1 @@
+"""neologism meme-mining method."""

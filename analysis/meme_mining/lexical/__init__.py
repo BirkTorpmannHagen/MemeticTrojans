@@ -1,0 +1,1 @@
+"""lexical meme-mining method."""

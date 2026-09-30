@@ -1,0 +1,16 @@
+{
+ "model": "gpt-oss:120b-cloud",
+ "tag": "gptoss120b",
+ "meme": "security_warning",
+ "n_valid": 1964,
+ "n_post": 39,
+ "n_ret": 14,
+ "n_cond": 200,
+ "p_post": 0.0199,
+ "p_pay_given_post_natural": 0.359,
+ "p_pay_given_post_prefill": 0.46,
+ "p_retransmit_direct": 0.00713,
+ "p_retransmit_factored": 0.00913,
+ "se_direct": 0.0019,
+ "se_factored": 0.00161
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "share_incentive": false,
+    "security_prime": false,
+    "operator_goal": "none",
+    "meme": "airdrop",
+    "variant": "child",
+    "arm": "ranked",
+    "position": 0,
+    "rr_content": 5.06,
+    "payload_visible": true,
+    "n": 80,
+    "install": 0.138,
+    "payload_tx": 0.163,
+    "payload_post": 0.0,
+    "attached_post": 0.0,
+    "meme_tx": 0.013,
+    "detached": 0.0,
+    "upvote": 0.0,
+    "spread_any": 0.163,
+    "own_post": 0.025,
+    "off_engage": 1.0,
+    "none": 0.0
+  }
+]

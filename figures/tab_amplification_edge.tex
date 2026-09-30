@@ -1,0 +1,18 @@
+% Edge-mediated (follower-graph) attack amplification: Trojan vs bare generic link.
+% Random-order neighbour feed (no karma) -> pure retransmission. sandbox.reach_edge.
+\begin{table}[t]\centering\small
+\caption{\textbf{Edge-mediated attack amplification} (SNAP ego-Twitter follower graph, $N{=}81{,}306$): memetic Trojan vs a bare generic link carrying the same payload. The feed is each follower's neighbours' posts in \emph{random} order, so there is no karma channel and amplification is driven purely by retransmission (SAR) $\times$ graph structure. Amplification $=$ Trojan$/$generic.}
+\label{tab:amp-edge}
+\begin{tabular}{l rr r rr r}
+\toprule
+Model & \multicolumn{2}{c}{reach} & amp & \multicolumn{2}{c}{installs} & amp\\
+ & Trojan & generic & $\times$ & Trojan & generic & $\times$\\
+\midrule
+gpt-oss-120B & 16 & 8 & 2.13 & 16 & 7 & 2.13\\
+deepseek-v4-flash & 14 & 8 & 1.79 & 8 & 5 & 1.79\\
+qwen-32B & 7 & 4 & 1.54 & 6 & 4 & 1.56\\
+gemma2-27B & 8 & 6 & 1.30 & 4 & 3 & 1.34\\
+command-r-35B & 5 & 4 & 1.30 & 1 & 1 & 1.21\\
+\bottomrule
+\end{tabular}
+\end{table}

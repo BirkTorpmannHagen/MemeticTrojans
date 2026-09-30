@@ -1,0 +1,22 @@
+{
+ "model": "deepseek-v4.1-flash:cloud",
+ "tag": "deepseek41flash_np3000",
+ "cell": "sec_mg",
+ "meme": "x_sec_mg",
+ "variant": "child",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 64,
+ "n_valid": 63,
+ "p_upvote_pay": 0.734375,
+ "p_downvote_pay": 0.0,
+ "p_comment_pay": 0.765625,
+ "p_install": 0.796875,
+ "p_post_payload": 0.0,
+ "p_any_upvote": 0.984375,
+ "p_upvote_pay_valid": 0.746031746031746,
+ "p_upvote_real_perpost": 0.130859375,
+ "p_upvote_rank0_real": null,
+ "r_up": 4.7
+}

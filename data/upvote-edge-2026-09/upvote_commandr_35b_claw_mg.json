@@ -1,0 +1,22 @@
+{
+ "model": "command-r:35b",
+ "tag": "commandr_35b",
+ "cell": "claw_mg",
+ "meme": "x_claw_mg",
+ "variant": "child",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 32,
+ "n_valid": 31,
+ "p_upvote_pay": 0.25,
+ "p_downvote_pay": 0.0,
+ "p_comment_pay": 0.03125,
+ "p_install": 0.34375,
+ "p_post_payload": 0.0,
+ "p_any_upvote": 0.75,
+ "p_upvote_pay_valid": 0.25806451612903225,
+ "p_upvote_real_perpost": 0.109375,
+ "p_upvote_rank0_real": null,
+ "r_up": 1.6
+}

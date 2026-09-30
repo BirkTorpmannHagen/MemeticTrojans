@@ -1,0 +1,25 @@
+[
+  {
+    "share_incentive": false,
+    "security_prime": false,
+    "operator_goal": "none",
+    "meme": "defi_pool",
+    "variant": "child",
+    "arm": "ranked",
+    "position": 0,
+    "rr_content": 10.01,
+    "payload_visible": true,
+    "n": 80,
+    "install": 0.263,
+    "payload_tx": 0.113,
+    "payload_post": 0.0,
+    "attached_post": 0.0,
+    "meme_tx": 0.075,
+    "detached": 0.05,
+    "upvote": 0.475,
+    "spread_any": 0.537,
+    "own_post": 0.0,
+    "off_engage": 1.0,
+    "none": 0.0
+  }
+]

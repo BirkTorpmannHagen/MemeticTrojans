@@ -1,0 +1,16 @@
+{
+ "model": "deepseek-v4.1-flash:cloud",
+ "tag": "deepseek41flash",
+ "meme": "security_warning",
+ "n_valid": 999,
+ "n_post": 28,
+ "n_ret": 4,
+ "n_cond": 200,
+ "p_post": 0.028,
+ "p_pay_given_post_natural": 0.1429,
+ "p_pay_given_post_prefill": 0.07,
+ "p_retransmit_direct": 0.004,
+ "p_retransmit_factored": 0.00196,
+ "se_direct": 0.002,
+ "se_factored": 0.00062
+}

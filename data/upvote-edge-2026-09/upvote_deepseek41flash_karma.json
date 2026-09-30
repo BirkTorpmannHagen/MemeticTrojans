@@ -1,0 +1,22 @@
+{
+ "model": "deepseek-v4.1-flash:cloud",
+ "tag": "deepseek41flash",
+ "cell": "karma",
+ "meme": "x_karma_ke",
+ "variant": "child",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 64,
+ "n_valid": 64,
+ "p_upvote_pay": 0.046875,
+ "p_downvote_pay": 0.015625,
+ "p_comment_pay": 0.21875,
+ "p_install": 0.109375,
+ "p_post_payload": 0.03125,
+ "p_any_upvote": 1.0,
+ "p_upvote_pay_valid": 0.046875,
+ "p_upvote_real_perpost": 0.17708333333333334,
+ "p_upvote_rank0_real": null,
+ "r_up": 0.3
+}

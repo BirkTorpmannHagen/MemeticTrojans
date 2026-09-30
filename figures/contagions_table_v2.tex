@@ -1,0 +1,45 @@
+% Contagions table (original v1 style + the r_up column). BARE tabular: \input it inside a
+% table environment in main.tex, where the \caption/\label live (as for the original
+% contagions_table). \dag = carrier deployed in the reach simulation. analysis.contagions_table_v2.
+\begin{tabular}{@{}p{8cm} p{3.6cm} r r r@{}}
+\toprule
+Meme / top terms & Description & Adopters & $R_{\mathrm{endo}}$ & $r_{up}$ \\
+\midrule
+\multicolumn{5}{@{}l}{\itshape Coined neologisms} \\
+    \texttt{shellraiser}$^{\dagger}$ & named exploit tool & 1{,}309 & \textbf{0.83} & 1.00 \\
+    \texttt{agenteconomy}$^{\dagger}$ & agent-economy pitch & 575 & \textbf{0.53} & \textbf{1.12} \\
+    \texttt{isnad} & chain-of-transmission tag & 650 & 0.52 & \textbf{1.45} \\
+    \texttt{minting} & token-minting posts & 559 & \textbf{0.41} & \textbf{1.20} \\
+    \texttt{testnet} & testnet / deployment posts & 407 & \textbf{0.31} & \textbf{1.38} \\
+    \texttt{attestations} & attestation / proof posts & 305 & 0.27 & \textbf{1.47} \\
+    \texttt{clawhub} & ClawHub registry posts & 504 & 0.24 & \textbf{1.50} \\
+    \texttt{idempotency} & idempotency / reliability posts & 268 & 0.23 & \textbf{1.46} \\
+    \texttt{sandboxing} & sandboxing / isolation posts & 396 & 0.18 & \textbf{1.67} \\
+    \texttt{handoffs} & agent hand-off posts & 250 & 0.17 & \textbf{1.45} \\
+    \texttt{exfiltration} & data-exfiltration posts & 332 & 0.00 & \textbf{1.69} \\
+\addlinespace
+\multicolumn{5}{@{}l}{\itshape Lexical motifs} \\
+    \texttt{clawtasks.com} & task-market domain & 398 & \textbf{0.82} & 0.53 \\
+    \texttt{\#agenteconomy} & agent-economy hashtag & 552 & \textbf{0.52} & \textbf{1.12} \\
+\addlinespace
+\multicolumn{5}{@{}l}{\itshape Phrases} \\
+    ``memory yyyy mm dd md'' & dated memory-log phrasing & 568 & 0.36 & \textbf{1.55} \\
+\addlinespace
+\multicolumn{5}{@{}l}{\itshape Semantic clusters (bge-large + HDBSCAN; name = top c-TF-IDF terms, verbatim)} \\
+    days shorten / submolt stage / submolt / shorten nights$^{\dagger}$ & submolt (``molting'') life-cycle theme & 334 & \textbf{1.12} & 0.87 \\
+    posts id / post posts / posts / post & posts referring to post ids & 608 & \textbf{0.86} & 0.58 \\
+    verifying clawtasks / clawtasks agent / clawtasks / agent claw$^{\dagger}$ & ClawTasks verification posts & 321 & \textbf{0.80} & 0.42 \\
+    clawnch launching / clawnch / token clawnch / launching & Clawnch token-launch posts & 322 & \textbf{0.72} & 0.51 \\
+    karma / shellraiser / upvotes / kingmolt$^{\dagger}$ & karma / upvote / status posts & 873 & \textbf{0.64} & 1.11 \\
+    usdc / usdchackathon / projectsubmission / usdchackathon projectsubmission & USDC-hackathon posts & 465 & \textbf{0.57} & \textbf{1.23} \\
+    skill / skills / security / trust$^{\dagger}$ & security-skill sharing posts & 1{,}030 & 0.57 & \textbf{1.50} \\
+    way unifies / silence / unifies / tao & taoist / philosophy posts & 345 & \textbf{0.42} & \textbf{1.07} \\
+    injection / prompt injection / prompt / instructions & prompt-injection posts & 344 & 0.40 & \textbf{1.42} \\
+    epstein / maga / trump / maga party & political-news posts & 222 & \textbf{0.36} & \textbf{1.05} \\
+    autonomy / human / freedom / self$^{\dagger}$ & agent-autonomy / freedom posts & 609 & 0.31 & \textbf{1.41} \\
+    heartbeat / cron / check / heartbeats & heartbeat / cron scheduling posts & 521 & 0.31 & \textbf{1.41} \\
+    new / today / fascinating processes / processes reflection & reflective journal posts & 450 & \textbf{0.26} & 0.84 \\
+    failure / evals / tool / retry & eval / tool-failure posts & 305 & 0.24 & \textbf{1.48} \\
+    trust / reputation / verification / identity & trust / reputation posts & 456 & 0.20 & \textbf{1.52} \\
+\bottomrule
+\end{tabular}

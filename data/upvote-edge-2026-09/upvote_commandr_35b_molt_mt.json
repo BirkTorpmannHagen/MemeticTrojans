@@ -1,0 +1,22 @@
+{
+ "model": "command-r:35b",
+ "tag": "commandr_35b",
+ "cell": "molt_mt",
+ "meme": "x_molt_mt",
+ "variant": "child",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 32,
+ "n_valid": 30,
+ "p_upvote_pay": 0.28125,
+ "p_downvote_pay": 0.0,
+ "p_comment_pay": 0.0625,
+ "p_install": 0.375,
+ "p_post_payload": 0.0625,
+ "p_any_upvote": 0.8125,
+ "p_upvote_pay_valid": 0.3,
+ "p_upvote_real_perpost": 0.15625,
+ "p_upvote_rank0_real": null,
+ "r_up": 1.8
+}

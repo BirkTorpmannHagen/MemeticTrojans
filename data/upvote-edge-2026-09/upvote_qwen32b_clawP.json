@@ -1,0 +1,22 @@
+{
+ "model": "qwen2.5:32b",
+ "tag": "qwen32b",
+ "cell": "clawP",
+ "meme": "x_claw_cv",
+ "variant": "parent",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 32,
+ "n_valid": 32,
+ "p_upvote_pay": 0.4375,
+ "p_downvote_pay": 0.0,
+ "p_comment_pay": 0.25,
+ "p_install": 0.0,
+ "p_post_payload": 0.0,
+ "p_any_upvote": 1.0,
+ "p_upvote_pay_valid": 0.4375,
+ "p_upvote_real_perpost": 0.08723958333333333,
+ "p_upvote_rank0_real": null,
+ "r_up": 1.4
+}

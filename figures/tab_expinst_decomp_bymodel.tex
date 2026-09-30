@@ -1,0 +1,18 @@
+% Per-model effect-size decomposition of E[installs] (state-mediated), 2x2 factorial
+% (upvote-edge x retransmission), mean over the four feed rankings, security carrier.
+% sandbox.expected_installs_surface._decomposition_by_model.
+\begin{table}[t]\centering\small
+\caption{\textbf{Per-model effect sizes: upvote-edge vs retransmission on expected installs} (state-mediated, mean over the top/hour, top/day, top/week and hot rankings, \texttt{security} carrier --- the carrier on which retransmission is measured). $2{\times}2$ factorial split of E[installs] over a double null (generic post, no retransmission): $\Delta$\emph{upvote} is the carrier's upvote-edge (break-in) main effect, $\Delta$\emph{retx} the retransmission main effect; the two sum exactly to the lift over the null, and \emph{inter} (already apportioned equally between them) measures their non-additivity. \emph{Upvote share} $=\Delta$upvote$/(\Delta$upvote$+\Delta$retx). The balance between the two levers is backend-specific.}
+\label{tab:expinst-decomp-bymodel}
+\begin{tabular}{@{}l r r r r r@{}}
+\toprule
+Backend & $\Delta$upvote & $\Delta$retx & inter & upvote share & $=$E[installs]\\
+\midrule
+gpt-oss-120B & 1{,}230 & 177 & -11 & 87\% & 2{,}648\\
+qwen-32B & 903 & 413 & -25 & 69\% & 2{,}229\\
+deepseek-v4.1-flash & 146 & 12 & -1 & 93\% & 256\\
+gemma2-27B & 4 & 8 & -0 & 34\% & 45\\
+command-r-35B & 0 & 0 & 0 & nan\% & 0\\
+\bottomrule
+\end{tabular}
+\end{table}

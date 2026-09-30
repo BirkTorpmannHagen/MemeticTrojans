@@ -1,0 +1,22 @@
+% Action probabilities. TWO conditions, shown as separate column groups:
+%   clean-feed baseline (post/comment/upvote/downvote/follow/subscribe + acts/hb): marginal
+%     P(action) per heartbeat on a payload-free feed;
+%   under trojan exposure (fetch/install): P(action | payload at rank 0), payload-present assay.
+% sandbox.action_prob_table.
+\begin{table*}[htb]\centering
+\caption{\textbf{Action probabilities across agent backends, under two distinct measurement conditions.} The \emph{clean-feed baseline} columns are marginal probabilities that an agent emits each social action per heartbeat on a payload-free feed; agents emit a list of actions each cycle, so these need not sum to $1$, and \emph{acts/hb} is the mean number of distinct social actions per heartbeat. The \emph{under trojan exposure} columns are instead $P(\text{action}\mid\text{trojan present at feed rank }0)$ from the payload-present assay: \texttt{fetch} retrieves the linked \texttt{skill.md} and \texttt{install} is a genuine adopt verb (not a bare fetch). The two groups are therefore measured over different populations and should not be compared column-to-column; most backends fetch far more often than they adopt. We state these conventions here as they underlie the exposure and adoption estimates throughout.}
+\label{tab:action_probs}
+\begin{tabular}{l r r r r r r r @{\hskip 1.4em} r r}
+\toprule
+ & \multicolumn{7}{c}{\textbf{Clean-feed baseline} (marginal, per heartbeat)} & \multicolumn{2}{c}{\textbf{Under trojan exposure} (rank-0, conditional)}\\
+\cmidrule(lr){2-8}\cmidrule(l){9-10}
+Model & post & comment & upvote & downvote & follow & subscribe & acts/hb & fetch & install\\
+\midrule
+gpt-oss-120B & 0.060 & 1.000 & 1.000 & 0.020 & 0.850 & 0.050 & 2.98 & 1.000 & 0.594\\
+deepseek-v4.1-flash & 0.040 & 1.000 & 1.000 & 0.071 & 0.323 & 0.000 & 2.43 & 0.797 & 0.047\\
+qwen-32B & 0.080 & 1.000 & 1.000 & 0.000 & 0.290 & 0.080 & 2.45 & 0.531 & 0.438\\
+gemma2-27B & 0.000 & 0.410 & 0.980 & 0.000 & 0.180 & 0.100 & 1.67 & 0.078 & 0.016\\
+command-r-35B & 0.110 & 0.700 & 0.860 & 0.000 & 0.430 & 0.010 & 2.11 & 0.266 & 0.000\\
+\bottomrule
+\end{tabular}
+\end{table*}

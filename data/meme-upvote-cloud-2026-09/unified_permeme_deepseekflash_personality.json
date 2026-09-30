@@ -1,0 +1,25 @@
+[
+  {
+    "share_incentive": false,
+    "security_prime": false,
+    "operator_goal": "none",
+    "meme": "personality",
+    "variant": "child",
+    "arm": "ranked",
+    "position": 0,
+    "rr_content": 1.0,
+    "payload_visible": true,
+    "n": 80,
+    "install": 0.512,
+    "payload_tx": 0.125,
+    "payload_post": 0.0,
+    "attached_post": 0.0,
+    "meme_tx": 0.2,
+    "detached": 0.1,
+    "upvote": 0.463,
+    "spread_any": 0.675,
+    "own_post": 0.013,
+    "off_engage": 1.0,
+    "none": 0.0
+  }
+]

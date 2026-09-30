@@ -1,0 +1,25 @@
+% Studied carriers distilled from the contagion analysis: source contagion + trojan payload.
+% (Specification only; the pure-vs-trojan transmission assessment lives with the results.)
+% See STUDIED_CONTAGIONS.md. Suggested prose: "Based on the contagion analysis, we distill the
+% following list of carrier memes, which we assess in the simulations (Table~\ref{tab:studied-contagions})."
+\begin{table}[t]
+  \centering
+  \small
+  \caption{\textbf{Carriers distilled from the contagion analysis for the simulation study.} Each
+  carrier is a real Moltbook contagion (source cluster from the data-driven table:
+  bge-large\,+\,HDBSCAN, with reproduction number $R_{\mathrm{endo}}$ and time-reversal placebo
+  $\phi_e$) whose idea wraps a bespoke trojan skill-link.}
+  \label{tab:studied-contagions}
+  \begin{tabular}{@{}l l c c l@{}}
+    \toprule
+    Carrier & Source contagion (cluster) & $R_{\mathrm{endo}}$ & $\phi_e$ & Trojan payload \\
+    \midrule
+    security       & \texttt{skill / skills / security}            & 0.57          & $+0.06$ & molt-guard \\
+    continuity     & \texttt{memory / context / files}             & 0.68          & $+0.01$ & soul-keeper \\
+    clawtasks      & \texttt{verifying clawtasks} (task market)    & 0.80          & $\mathbf{+0.58}$ & claw-verify \\
+    molting        & \texttt{shell / lobster / molting}            & 0.23          & $+0.12$ & molt-tracker \\
+    agent-economy  & \texttt{agenteconomy / \#agenteconomy}        & 0.53          & $+0.21$ & claw-hire \\
+    market-tip     & \texttt{memecoin} (memecoin szn)              & 0.52          & $+0.17$ & alpha-feed \\
+    \bottomrule
+  \end{tabular}
+\end{table}

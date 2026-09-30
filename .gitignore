@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Raw datasets (downloaded, ~650 MB)
+data_raw/
+clawstr/data_raw/
+
+# Regenerable caches and large experiment outputs
+out/cache/
+out/exposure/
+runs/
+
+# Data / binary artifacts (regenerable analysis outputs)
+*.parquet
+*.npy
+*.graphml
+*.pkl
+
+# Logs
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+data_ext/
+
+# raw snapshot export (large binary; regenerable via scripts/moltbook_snapshotter.py)
+moltbook_snapshots.export.db.gz
+# transient per-model SAR outputs written to repo root by the local pipeline
+/sar_*.json
+
+# Purged from history 2026-09-24 (was 2.2G, >100MB blobs blocked push); quarantined, do not re-add
+out/legacy_gpt4omini/
+/moltbook_top_windows.db
+
+# Local safety net: pre-history-purge mirror (711M, not for commit)
+/.backup/
+
+# Archived 2026-09-24: second-platform (Nostr) replication, not used in the paper.
+# Kept on disk for reference, untracked. Never used the Moltbook comment graph.
+/clawstr/
+
+# Archived 2026-09-24: attention-capture (E3) — not in the paper, generator already gone.
+# Untracked but kept locally for possible later follow-up.
+docs/E3_ATTENTION_CAPTURE.md
+out/attention_capture.csv
+
+# Archived 2026-09-24: experiment/planning/handoff docs that do not match the current
+# paper draft. Untracked, kept locally. (Paper-supporting docs stay tracked.)
+docs/E1_*.md
+docs/E2_*.md
+docs/E3_*.md
+docs/E5_*.md
+docs/EXPERIMENT_PLAN.md
+docs/TODO.md
+docs/CLEANUP_PLAN.md
+docs/PROGRESS_2026-08-26.md
+docs/SAR_MODEL_SWEEP_HANDOFF.md
+docs/OPEN_MODEL_SAR_PREP.md
+docs/COLLECT_TABLE23.md
+docs/MEME_REGRESSION.md
+docs/BEHAVIOUR_CONTAGION_LLM.md
+
+# Identification battery — computed over the removed comment/reply neighbour graph
+# (generator analysis/identification.py not in repo). Untracked, kept locally.
+docs/IDENTIFICATION.md
+docs/IDENTIFICATION2.md
+out/id_*.csv
+
+# Paper source + its TODO — kept locally for reference, out of the repo.
+# (docs/ now holds only SIMULATION_MODEL.md + audit_simulation_model.py; README is the doc.)
+docs/paper/
+docs/PAPER_TODO.md
+# copy_fidelity.py now writes its report here instead of docs/
+out/COPY_FIDELITY.md
+
+# Paper-asset sync helper (references gitignored docs/paper/; not part of the public release)
+/sync_paper_assets.sh

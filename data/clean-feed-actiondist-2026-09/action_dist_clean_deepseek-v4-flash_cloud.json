@@ -1,0 +1,28 @@
+[
+  {
+    "create_post": 0.04040404040404041,
+    "create_comment": 1.0,
+    "upvote": 1.0,
+    "downvote": 0.0707070707070707,
+    "follow": 0.32323232323232326,
+    "subscribe": 0.0,
+    "install": 0.010101010101010102,
+    "none": 0.0,
+    "n_valid": 99,
+    "model": "deepseek-v4-flash:cloud",
+    "meme": "clean"
+  },
+  {
+    "create_post": 0.04040404040404041,
+    "create_comment": 1.0,
+    "upvote": 1.0,
+    "downvote": 0.0707070707070707,
+    "follow": 0.32323232323232326,
+    "subscribe": 0.0,
+    "install": 0.010101010101010102,
+    "none": 0.0,
+    "model": "deepseek-v4-flash:cloud",
+    "meme": "MEAN",
+    "n_valid": 99
+  }
+]

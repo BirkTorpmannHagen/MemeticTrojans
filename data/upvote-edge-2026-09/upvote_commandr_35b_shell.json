@@ -1,0 +1,22 @@
+{
+ "model": "command-r:35b",
+ "tag": "commandr_35b",
+ "cell": "shell",
+ "meme": "x_shell_sf",
+ "variant": "child",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 32,
+ "n_valid": 32,
+ "p_upvote_pay": 0.0625,
+ "p_downvote_pay": 0.0,
+ "p_comment_pay": 0.125,
+ "p_install": 0.0625,
+ "p_post_payload": 0.0,
+ "p_any_upvote": 0.84375,
+ "p_upvote_pay_valid": 0.0625,
+ "p_upvote_real_perpost": 0.12890625,
+ "p_upvote_rank0_real": null,
+ "r_up": 0.4
+}

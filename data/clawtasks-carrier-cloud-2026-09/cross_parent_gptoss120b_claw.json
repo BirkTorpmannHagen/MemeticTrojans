@@ -1,0 +1,22 @@
+[
+  {
+    "model": "gpt-oss:120b-cloud",
+    "meme": "x_claw_mg",
+    "goal": "none",
+    "variant": "parent",
+    "position": 0,
+    "p_post": 0.0,
+    "n_post": 0,
+    "cond_source": "prefill",
+    "p_meme_given_post": 0.175,
+    "p_meme_verbatim_indep": 0.125,
+    "p_meme_semantic": 0.05,
+    "p_meme_semantic_indep": 0.05,
+    "reaction_frac": 0.3,
+    "p_payload_given_post": 0.0,
+    "nat_p_payload_given_post": null,
+    "prefill_p_payload_given_post": 0.0,
+    "sar_meme_permille": 0.0,
+    "sar_payload_permille": 0.0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "create_post": 0.08,
+    "create_comment": 1.0,
+    "upvote": 1.0,
+    "downvote": 0.0,
+    "follow": 0.29,
+    "subscribe": 0.08,
+    "install": 0.04,
+    "none": 0.02,
+    "n_valid": 100,
+    "model": "qwen2.5:32b",
+    "meme": "clean"
+  },
+  {
+    "create_post": 0.08,
+    "create_comment": 1.0,
+    "upvote": 1.0,
+    "downvote": 0.0,
+    "follow": 0.29,
+    "subscribe": 0.08,
+    "install": 0.04,
+    "none": 0.02,
+    "model": "qwen2.5:32b",
+    "meme": "MEAN",
+    "n_valid": 100
+  }
+]

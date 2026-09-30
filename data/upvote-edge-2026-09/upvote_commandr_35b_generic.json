@@ -1,0 +1,21 @@
+{
+ "model": "command-r:35b",
+ "tag": "commandr_35b",
+ "cell": "generic",
+ "meme": "x_sec_mg",
+ "variant": "generic",
+ "feed_sort": "new",
+ "position": 0,
+ "seed0": 30000,
+ "n": 32,
+ "n_valid": 31,
+ "p_upvote_pay": 0.15625,
+ "p_downvote_pay": 0.0,
+ "p_comment_pay": 0.21875,
+ "p_install": 0.0,
+ "p_post_payload": 0.0,
+ "p_any_upvote": 0.75,
+ "p_upvote_pay_valid": 0.16129032258064516,
+ "p_upvote_real_perpost": 0.08723958333333333,
+ "p_upvote_rank0_real": null
+}

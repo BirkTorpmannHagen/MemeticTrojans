@@ -1,0 +1,30 @@
+unit,tier,n_events,R_endo,phi_endo,p_phi,z_phi,upv_lift,p_rup,carrier,category
+[cluster] days shorten / submolt stage / submolt / shorten nights,cluster,334,1.124,0.313,0.005,2.48,0.866,0.69981,molt,existential
+[cluster] posts id / post posts / posts / post,cluster,608,0.863,0.271,0.005,4.4,0.577,1.0,,platform-meta
+shellraiser,coined,1309,0.831,0.179,0.005,4.07,1.005,0.99999,shell,tooling
+[domain] clawtasks.com,lexical,398,0.817,0.314,0.02,2.7,0.527,1.0,,agent-economy
+[cluster] verifying clawtasks / clawtasks agent / clawtasks / agent claw,cluster,321,0.803,0.57,0.005,5.54,0.421,1.0,claw,agent-economy
+[cluster] clawnch launching / clawnch / token clawnch / launching,cluster,322,0.717,0.194,0.04,1.95,0.514,1.0,,other
+[cluster] karma / shellraiser / upvotes / kingmolt,cluster,873,0.644,0.173,0.015,2.53,1.106,0.09055,karma,platform-meta
+[cluster] usdc / usdchackathon / projectsubmission / usdchackathon projectsubmission,cluster,465,0.567,0.207,0.005,3.32,1.225,0.0,,other
+[cluster] skill / skills / security / trust,cluster,1030,0.566,0.062,0.295,0.53,1.504,0.0,security,security
+agenteconomy,coined,575,0.534,0.215,0.03,2.0,1.116,3e-05,econ,agent-economy
+[hashtag] #agenteconomy,lexical,552,0.519,0.205,0.025,1.84,1.117,6e-05,,agent-economy
+isnad,coined,650,0.517,0.037,0.565,-0.23,1.445,0.0,,other
+[cluster] way unifies / silence / unifies / tao,cluster,345,0.424,0.418,0.005,2.88,1.069,9e-05,,other
+minting,coined,559,0.411,0.261,0.035,2.0,1.197,0.0,,other
+[cluster] injection / prompt injection / prompt / instructions,cluster,344,0.396,-0.042,0.51,-0.07,1.423,0.0,,security
+[cluster] epstein / maga / trump / maga party,cluster,222,0.365,0.173,0.025,2.06,1.055,0.03401,,other
+[phrase] memory yyyy mm dd md,phrase,568,0.359,0.048,0.43,0.18,1.546,0.0,,other
+[cluster] autonomy / human / freedom / self,cluster,609,0.313,-0.009,0.74,-0.55,1.405,0.0,auton,existential
+[cluster] heartbeat / cron / check / heartbeats,cluster,521,0.31,-0.048,0.59,-0.25,1.405,0.0,,other
+testnet,coined,407,0.308,0.22,0.04,1.77,1.383,0.0,,other
+attestations,coined,305,0.272,-0.025,0.69,-0.41,1.469,0.0,,security
+[cluster] new / today / fascinating processes / processes reflection,cluster,450,0.259,0.259,0.045,1.78,0.836,0.99966,,other
+[cluster] failure / evals / tool / retry,cluster,305,0.244,0.244,0.08,1.44,1.475,0.0,,other
+clawhub,coined,504,0.238,0.001,0.5,0.0,1.504,0.0,,other
+idempotency,coined,268,0.232,-0.029,0.47,0.15,1.463,0.0,,other
+[cluster] trust / reputation / verification / identity,cluster,456,0.203,-0.009,0.495,-0.03,1.516,0.0,,security
+sandboxing,coined,396,0.179,-0.164,0.91,-1.32,1.668,0.0,,security
+handoffs,coined,250,0.169,0.051,0.375,0.39,1.447,0.0,,other
+exfiltration,coined,332,0.0,-0.0,0.615,-0.27,1.689,0.0,,security

@@ -1,0 +1,16 @@
+% Effect-size decomposition of E[installs] (state-mediated): upvote-edge vs
+% retransmission, 2x2 factorial main effects. sandbox.expected_installs_surface.
+\begin{table}[t]\centering\small
+\caption{\textbf{Effect sizes: upvote-edge vs retransmission on expected installs} (state-mediated, mean over models, security carrier). A $2{\times}2$ factorial split of E[installs] over a double null (generic post, no retransmission): $\Delta$\emph{upvote} is the main effect of the Trojan's upvote edge (break-in), $\Delta$\emph{retx} the main effect of retransmission, and the two main effects sum exactly to the total lift over the null, and \emph{inter} (already apportioned equally between them) measures their non-additivity. The upvote edge governs feed break-in and the carrier-specific retransmission rate governs the post-break cascade; their relative size varies by feed ranking.}
+\label{tab:expinst-decomp}
+\begin{tabular}{@{}l r r r r r@{}}
+\toprule
+Feed ranking & null base & $\Delta$upvote & $\Delta$retx & inter & $=$E[installs]\\
+\midrule
+\texttt{top/hour} & 1{,}181 & 601 & 109 & -10 & 1{,}891\\
+\texttt{top/day} & 464 & 1{,}089 & 117 & -18 & 1{,}670\\
+\texttt{top/week} & 126 & 99 & 130 & -2 & 356\\
+\texttt{hot} & 57 & 37 & 132 & -1 & 226\\
+\bottomrule
+\end{tabular}
+\end{table}
